@@ -68,7 +68,7 @@ const AudioComponent = (props: AudioProps): JSX.Element => {
   ];
   const colormapNameOptions = [
     { value: 'gray', label: 'Grayscale (ws)' },
-    { value: 'gray', label: 'Inversed Grayscale (ws)' },
+    { value: 'igray', label: 'Inversed Grayscale (ws)' },
     { value: 'roseus', label: 'roseus (ws)' },
     { value: 'viridis', label: 'viridis' },
     { value: 'plasma', label: 'plasma' },
